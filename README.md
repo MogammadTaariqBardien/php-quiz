@@ -30,14 +30,14 @@ Tools:
 
 ### Changelog
 
-2018-11-20
+### 2018-11-20
 - Added Arrays and Variables
 - Updated Readme
 - Added Base Folders
-2018-11-21
+### 2018-11-21
 - Added counting loop
 - Added loop to display things
-2018-11-22
+### 2018-11-22
 - Added error checking to prevent not filling it out
 - Added some stying
 
