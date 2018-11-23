@@ -7,7 +7,7 @@
     <title>Results</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="second">
 
     <?php
         // Start of the array that contains the answers
@@ -44,16 +44,18 @@
         // Below is a switch statement that displays an appropriate based on the total that achieved from the for loop
         switch ($total) {
             case ($total <= 9):
-                    echo "You have much to learn!<br>";
+                    echo "<p>You have much to learn!</p>";
                     echo $total."/20";
                 break;
             case ($total >= 10 && $total <= 15):
-                    echo "You can still do better! But Congradulations!<br>";
+                    echo "<p>You can still do better! But Congradulations!</p>";
                     echo $total."/20";
+                    echo "<img class='img' src='img/smiley.jpeg'>";
                 break;
             case ($total >= 16 ):
-                    echo " You have done well! Congradulations!<br>";
-                    echo $total."/20";
+                    echo "<p>You have done well! Congradulations!</p>";
+                    echo $total."/20.<br>";
+                    echo "<img class='img' src='img/smiley.jpeg'>";
                 break;
             default:
                     echo "This is not working right<br>";
