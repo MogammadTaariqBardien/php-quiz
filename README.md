@@ -1,4 +1,4 @@
-# php-quiz
+# Php-Quiz
 - This repository contains PHP Quiz Project from the LMS and my attempt at doing it.
 - This Quiz is about anime themed things.
 
