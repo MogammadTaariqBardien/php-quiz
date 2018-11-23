@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- This section contains the heading -->
-    <header class='top'>
+    <header>
         <h1>Welcome to the Grand Anime Quiz</h1>
     </header>
     <!-- End of the section with the heading -->
@@ -177,7 +177,8 @@
                 // Below is the for loop that loops through array and displays all the choices while assigning them values to ensure that only 1 can be picked and making you have to select 1
                 for ($b = $i*4; $b < ($i+1)*4; $b++) { 
                     ?>
-                    <input type='radio' required name="<?php echo $i; ?>" 
+                    <input type='radio' required 
+                    name="<?php echo $i; ?>" 
                     value="<?php echo $a ?>" 
                     id="<?php echo $b ?>">
                     <!-- This is to assign labels to each choice from each array -->

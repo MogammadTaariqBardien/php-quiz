@@ -7,7 +7,7 @@
     <title>Results</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="second">
+<body class="secondPage">
 
     <?php
         // Start of the array that contains the answers
@@ -58,6 +58,11 @@
                     echo $total."/20.<br>";
                     echo "<img class='img' src='img/smiley.jpeg'>";
                 break;
+            case ($total >= 20 ):
+                    echo "<p>You have done well!</p>";
+                    echo $total."/20.<br>";
+                    echo "<img class='img' src='img/smiley.jpeg'>";
+                break;
             default:
                     echo "This is not working right<br>";
                     echo $total."/20"; 
@@ -66,7 +71,7 @@
         // End of switch statement
     ?>
     <!-- Below is the section that allows you to redo the quiz -->
-	<section class='lower'>
+	<section class='bottom'>
         <!-- Form that allows you to go back -->
 		<form action="index.php" method="post">
 		<input type="submit" value="Redo" class="submitb">

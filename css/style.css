@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;
 }
 
-.second { 
+.secondPage { 
     font-size: 3em;
 }
 .container {
@@ -23,7 +23,7 @@ body{
 }
 header > h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 input[type=radio] {
     margin: 1em auto;
@@ -54,7 +54,7 @@ input[type=radio]:checked + label::after {
     transform: translate(-1.3em, -50%) rotate(45deg);
 }
 
-.lower {
+.bottom {
     text-align: center;
 }
 .submit {
