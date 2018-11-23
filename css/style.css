@@ -1,9 +1,67 @@
 body{
-    background-color: beige;
+    background-color: #fefefe;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
 }
 
 .container {
+    padding: 1em;
     width: 50%;
     height: auto;
-    background-color: grey;
+    background-color: #666;
+    margin: 1em auto 1em 23%;
+    color: #fff;
+    border-radius: 4px;
+    text-align: left
 }
+header > h1 {
+    text-align: center;
+    font-size: 2em;
+}
+input[type=radio] {
+    margin: 1em auto;
+    opacity: 0;
+}
+label {
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    position: relative;
+}
+
+label::after {
+    border-radius: 2px;
+    content: '';
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-1.3em, -50%);
+    transition: all 200ms ease-out;
+}
+
+input[type=radio]:checked + label::after {
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(-1.3em, -50%) rotate(45deg);
+}
+
+.lower {
+    text-align: center;
+}
+.submit {
+    font-size: 2em;
+}
+
+.submitb {
+    font-size: 2em;
+}
+
+input[type=submit] {
+    border-radius: 2px;
+    background-color: #666;
+    color: white;
+    border-color: black;
+}
+

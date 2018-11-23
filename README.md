@@ -1,12 +1,11 @@
 # php-quiz
-This repository contains PHP Quiz Project from the LMS and my attempt at doing it.
-
-## Live Link
-- 
+- This repository contains PHP Quiz Project from the LMS and my attempt at doing it.
+- This Quiz is about anime themed things.
 
 ## Prevalent Technologies Used
 
  - PHP
+ - HTML
 
 ### Other Technologies Used
 
@@ -35,6 +34,12 @@ Tools:
 - Added Arrays and Variables
 - Updated Readme
 - Added Base Folders
+2018-11-21
+- Added counting loop
+- Added loop to display things
+2018-11-22
+- Added error checking to prevent not filling it out
+- Added some stying
 
 ## Contributors
 
