@@ -40,6 +40,8 @@ Tools:
 ### 2018-11-22
 - Added error checking to prevent not filling it out
 - Added some stying
+### 2018-11-23
+- Added some final style changes
 
 ## Contributors
 
