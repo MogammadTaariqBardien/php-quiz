@@ -1,32 +1,27 @@
-# Php-Quiz
-- This repository contains PHP Quiz Project from the LMS and my attempt at doing it.
-- This Quiz is about anime themed things.
+# Php Quiz - The Grand Anime Quiz
 
-## Prevalent Technologies Used
+ - This project is an anime themed quiz for a user to answer and recieve a total out of 20 on completion.
 
- - PHP
- - HTML
+## Purpose
 
-### Other Technologies Used
+ - The purpose of this project is to display skills of using loops and arrays to create a functioning quiz.
 
-Technologies and Tools Used:
+### What to use to view project
 
-```
-Languages:
+#### Technology needed
+ - A capable device to run it on.
+ - A web browser of some sort such as Google Chrome.
+ - Software that allows you to host a virtual device such as WAMP.
 
-- CSS
-- HTML
-- PHP
+### Steps to run project and use it
 
-```
-```
-Tools:
+- Install a web browser and virtual device hosting software if there is none.
+- Download ZIP file of project.
+- Extract project.
+- Create virtual host with a path to the project.
+- Take the Quiz.
+- Complete the Quiz and get your result.
 
-- VS Code
-- GitBash
-- WAMP
-
-```
 
 ### Changelog
 
@@ -42,6 +37,8 @@ Tools:
 - Added some stying
 ### 2018-11-23
 - Added some final style changes
+### 2018-11-29
+- Updated the Readme
 
 ## Contributors
 
