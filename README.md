@@ -4,20 +4,20 @@
 
 ## Purpose
 
- - The purpose of this project is to display skills of using loops and arrays to create a functioning quiz.
+ - The purpose of this project is to display my skills of using loops and arrays to create a functioning quiz.
 
 ### What to use to view project
 
 #### Technology needed
- - A capable device to run it on.
+ - A capable device to run a virtual server/host on.
  - A web browser of some sort such as Google Chrome.
  - Software that allows you to host a virtual device such as WAMP.
 
 ### Steps to run project and use it
 
 - Install a web browser and virtual device hosting software if there is none.
-- Download ZIP file of project.
-- Extract project.
+- Download the ZIP file of project.
+- Extract the project.
 - Create virtual host with a path to the project.
 - Take the Quiz.
 - Complete the Quiz and get your result.
