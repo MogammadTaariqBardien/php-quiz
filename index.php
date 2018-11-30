@@ -20,7 +20,7 @@
             // The array containing all the questions
             $questions = array (
                 '1. Who is the main character in One Piece?',
-                '2. Who the sidekick of Saitama in One Punch Man?',
+                '2. Who is the sidekick of Saitama in One Punch Man?',
                 '3. From which series is the Shadow Realm used?', 
                 '4. What was Kurogane Ikki know as in Rakudai Kishi no Eiyuutan?', 
                 '5. Who is the brother of Edward Elric in Full Metal Alchemist?', 
